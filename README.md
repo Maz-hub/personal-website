@@ -7,7 +7,7 @@ This is my personal website built during the CS50's Introduction to Computer Sci
 - **Bootstrap**: Integrated Bootstrap for responsiveness and UI components
 - **JavaScript**: Added interactivity and animations
 
-Feel free to explore the project and check out the live demo!
+Feel free to explore the project and check out the live demo! https://maz-hub.github.io/personal-website/
 
 ## Features
 
