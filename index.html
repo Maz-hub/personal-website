@@ -1,0 +1,253 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./img/code_logo.png" alt="logo" width="45" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link fw-semibold" href="index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="hobbies.html">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+
+        <header class="header pt-5 mt-4">
+            <div class="container-fluid overflow-hidden">
+                <div class="row">
+                    <!-- Image column -->
+                    <div class="col-12 col-md-6 p-0 order-md-0 order-1">
+                        <img
+                            class="img-fluid w-100 h-100 object-fit-cover"
+                            loading="lazy"
+                            src="./img/img-bootstrap-code.jpg"
+                            alt="Bootstrap coding background image"
+                        />
+                    </div>
+                    <!-- Text column -->
+                    <div class="col-12 col-md-6 align-self-md-end order-md-1 order-0">
+                        <div class="row py-3 py-sm-5 py-xl-9 mt-md-10 justify-content-sm-center">
+                            <div class="col-12 col-sm-10">
+                                <h1 id="typing-text" class="display-7 my-4"></h1>
+                                <h2 class="display-2 fw-bolder mb-4 text-white">I’m <span class="name">Maz</span></h2>
+                                <div class="row">
+                                    <div class="col-12 col-xxl-8">
+                                        <p class="lead fs-5 text-light">Passionate front-end developer in the making!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Me -->
+        <section id="about-me-section" class="py-5 bg-white">
+            <div class="container">
+                <div class="container-lg text-center">
+                    <h1 class="lead display-6 pb-4 fw-bold mb-3">ABOUT ME</h1>
+                    <p class="text-muted fs-5">
+                        I’m a web development enthusiast diving into the world of front-end development. This website is a part of my journey as I
+                        work through the "CS50's Introduction to Computer Science" course, and I’m excited to share it with you. I love solving
+                        challenges, exploring new technologies, and turning ideas into functional websites.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects my-5">
+            <div class="container container-projects">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center">
+                        <h2 class="display-8 mb-4">Projects</h2>
+                        <p class="mb-4">
+                            These are a few of the projects that helped me level up my CSS and SCSS skills while having fun with Frontend Mentor
+                            challenges:
+                        </p>
+                        <ul class="list-group list-group-flush lh-lg">
+                            <li class="list-group-item border-0 py-3">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Four Card Feature Section: </strong>
+                                Experimented with CSS Grid to get the layout just right and used semantic HTML to keep things clean and structured.
+                            </li>
+                            <li class="list-group-item border-0 py-3">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Skilled E-Learning Landing Page: </strong>SCSS came into play here, along with custom <code>@mixins</code> to
+                                streamline the colors and buttons. Felt like I had my own toolkit!
+                            </li>
+                            <li class="list-group-item border-0 py-3">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Huddle Landing Page: </strong>Worked with responsive backgrounds and learned how to prevent annoying scroll
+                                bars. Also discovered the magic of the <code>clamp()</code>function!
+                            </li>
+                        </ul>
+                        <a href="projects.html" class="btn btn-lg mt-4 align-self-start">Go to projects</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-container p-5">
+                            <img src="./img/frontendmentor-challenge.jpg" alt="Frontend Mentor challenge image" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statement -->
+        <section class="statement mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-container bg-light p-5 rounded-5">
+                            <h2 class="text-center pb-3">Why Front-End?</h2>
+                            <p>
+                                Front-end development is the perfect mix of creativity and logic. It’s about more than just coding—it's bringing ideas
+                                to life in a way people can see and interact with. Crafting clean, intuitive designs and making sure they function
+                                smoothly is a challenge I enjoy. There’s nothing more satisfying than seeing a project come together on the screen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hiking -->
+        <section class="hobbies my-5">
+            <div class="container">
+                <div class="row">
+                    <!-- left -->
+                    <div class="col-lg-6">
+                        <div class="image-container p-5">
+                            <img src="./img/hiking-swiss-mountains.jpg" alt="Swiss mountains from Valais" class="img-fluid" />
+                        </div>
+                    </div>
+                    <!-- right -->
+                    <div class="col-lg-6 d-flex flex-column justify-content-center">
+                        <h2 class="display-8 mb-4">Hiking</h2>
+                        <p class="mb-4">Hiking is my way of hitting the reset button. it’s a way to connect with nature and recharge the energy.</p>
+                        <ul class="list-group list-group-flush lh-lg">
+                            <li class="list-group-item border-0 py-3">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Montreux-Riviera: </strong> Strolling along Lake Geneva with the mountains in the background, just unbeatable.
+                                It’s that perfect.
+                            </li>
+                            <li class="list-group-item border-0 py-3">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Rochers de Naye: </strong> A bit of a climb, but the views at the top? Totally worth it. Plus, you might spot
+                                some marmots along the way!
+                            </li>
+                            <li class="list-group-item border-0 py-3">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Lavaux Vineyards: </strong> There’s something about walking through these vineyards, surrounded by tradition
+                                and beauty. It’s hard to match that combo.
+                            </li>
+                        </ul>
+                        <a href="hobbies.html" class="btn btn-lg mt-4 align-self-start">Explore trails</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social -->
+        <section class="social bg-social py-5 overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 text-center fs-4">
+                        <p>Connect with me</p>
+                        <div class="social_icons d-flex justify-content-center gap-4">
+                            <!-- Github -->
+                            <a href="https://github.com/Maz-hub" target="_blank">
+                                <i class="bi bi-github fs-2"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/mazoolander/" target="_blank">
+                                <i class="bi bi-instagram fs-2"></i>
+                            </a>
+                            <!-- X -->
+                            <a href="https://x.com/maz_oolander" target="_blank">
+                                <i class="bi bi-twitter-x fs-2"></i>
+                            </a>
+                            <!-- E-mail -->
+                            <a href="mailto:mazoolander@gmail.com">
+                                <i class="bi bi-envelope-at fs-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 d-flex justify-content-md-start justify-content-center mb-3 mb-md-0">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="hobbies.html">Hobbies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-md-end justify-content-center">
+                        <p class="mb-0">© 2024 Maz | Created with passion</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

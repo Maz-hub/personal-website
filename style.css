@@ -1,0 +1,131 @@
+:root {
+    /* Colors */
+    --primary-color: #bdea69;
+    --primary-color-dark: #2c5f2d;
+    --secondary-color: #f71d6b;
+    --splash-color: #e5db73;
+    --dark-color: #0e1729;
+    --light-color: #f3f3ef;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--splash-color);
+}
+
+/* Buttons */
+
+.btn {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    transition:
+        background-color 0.5s ease,
+        color 0.5s ease;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #cf1b5b;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link {
+    color: var(--dark-color);
+}
+
+.nav-link:hover {
+    color: var(--primary-color-dark);
+}
+
+.bg-navbar {
+    background-color: var(--primary-color);
+}
+
+.navbarLucid {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+.header {
+    background-color: #141414;
+}
+
+.header h1 {
+    color: var(--secondary-color);
+    padding-bottom: 4rem;
+}
+
+.name {
+    color: var(--primary-color);
+}
+
+@media (max-width: 1000px) {
+    .hero .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero .text-container {
+        text-align: center;
+    }
+}
+
+/* About Me - Override py-5 */
+
+#about-me-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* Social */
+
+.bg-social {
+    background-color: var(--dark-color);
+    color: #ffffff;
+}
+
+/* Footer */
+
+.bg-footer {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+
+/* Contact Page */
+
+.hero-contact {
+    background-color: var(--dark-color);
+}
+
+.links a {
+    color: var(--primary-color-dark);
+}
+
+/* Projects */
+
+img[data-bs-toggle="modal"] {
+    cursor: pointer;
+}

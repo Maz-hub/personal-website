@@ -1,0 +1,194 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./img/code_logo.png" alt="logo" width="45" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link fw-semibold" href="index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="hobbies.html">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+
+        <header class="header hero-contact pt-5 mt-5">
+            <div class="container-xl">
+                <div class="row">
+                    <!-- Image column -->
+                    <div class="col-lg-12 pt-5">
+                        <h1 class="display-2 fw-bold mb-4">Contact <span class="name">me</span></h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contact Form-->
+        <section class="contact pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <form class="my-5">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control form-control-lg" placeholder="Name" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control form-control-lg" placeholder="Email" />
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control form-control-lg" name="Message" rows="8" placeholder="Message"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-lg mt-4">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map -->
+        <section class="location bg-light py-5 mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="pb-3 text-center">Check-out the Swiss Riviera map</h3>
+                        <p class="links text-start mb-4">
+                            Nestled along the shores of Lake Geneva, the Swiss Riviera is world-renowned for its
+                            <a href="https://www.montreuxjazzfestival.com/en/" target="_blank" rel="noopener noreferrer">Montreux Jazz Festival</a>,
+                            attracting music enthusiasts from around the world. It’s also home to the famous
+                            <a
+                                href="https://www.lausanne-tourisme.ch/en/explore/unesco-listed-lavaux-vineyard-terraces/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Lavaux vineyards</a
+                            >, a UNESCO World Heritage site. The region’s charm extends beyond nature—with stunning views of the Alps meeting the
+                            lake—and history comes alive with landmarks like
+                            <a href="https://www.chillon.ch/en/" target="_blank" rel="noopener noreferrer">Château de Chillon</a>. Plus, it’s where
+                            Charlie Chaplin spent his final years, and his former home, now the
+                            <a
+                                href="https://www.chaplinsworld.com/en?_gl=1*12k9n7x*_up*MQ..&gclid=EAIaIQobChMIuojCha2TiQMVIZeDBx0m0TmbEAAYASAAEgKyRPD_BwE"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Chaplin’s World museum</a
+                            >, offers a fascinating glimpse into his life.
+                        </p>
+
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22031.05280480914!2d6.849999645276426!3d46.4527858258405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c042574bb2899%3A0x7b8a859e90e35f91!2sSwiss%20Riviera%2C%20Montreux%2C%20Switzerland!5e0!3m2!1sen!2sch!4v1697452006754!5m2!1sen!2sch"
+                                width="100%"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social -->
+        <section class="social bg-social py-5 overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 text-center fs-4">
+                        <p>Connect with me</p>
+                        <div class="social_icons d-flex justify-content-center gap-4">
+                            <!-- Github -->
+                            <a href="https://github.com/Maz-hub" target="_blank">
+                                <i class="bi bi-github fs-2"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/mazoolander/" target="_blank">
+                                <i class="bi bi-instagram fs-2"></i>
+                            </a>
+                            <!-- X -->
+                            <a href="https://x.com/maz_oolander" target="_blank">
+                                <i class="bi bi-twitter-x fs-2"></i>
+                            </a>
+                            <!-- E-mail -->
+                            <a href="mailto:mazoolander@gmail.com">
+                                <i class="bi bi-envelope-at fs-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 d-flex justify-content-md-start justify-content-center mb-3 mb-md-0">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="hobbies.html">Hobbies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-md-end justify-content-center">
+                        <p class="mb-0">© 2024 Maz | Created with passion</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
