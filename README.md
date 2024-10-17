@@ -16,3 +16,4 @@ Feel free to explore the project and check out the live demo!
 - Typing effect using JavaScript
 - Image modals for project previews
 
+![Screenshot - Homepage](./Screenshot%20My%20Webpage.png)
